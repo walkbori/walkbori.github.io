@@ -26,4 +26,6 @@ tags: 기록
 
 - 관리를 위해서 assets하위에 posts를 만들고 그 하위에 포스트명과 동일한 폴더를 만들어서 이미지를 넣었다(넣기로 했다).
 - 글을 쓸때는 Front Matter라는 것을 넣어야 한다. 여러 옵션이 있는데 어떤 옵션을 쓸지 정해야 겠다.
-- 메뉴 등의 한글화를 위해서 _config.yml에서 안내하는데로 _data에 하위 locales폴더를 만들고, 한글언어 파일은 [박성진](https://github.com/denev6/denev6.github.io/tree/master/_data/locales)님의 저장소에서 ko-KR파일만 가져왔다. 그리고 _config.ylml에서 'lang:' 값을 en에서 ko로 변경했다. 복사해온 파일명도 ko-KR.yml인데 ko.yml로 변경했다. 이렇게 한 이유는 giscus라는 코멘트프로그램을 쓸때 ko가 아니라 ko-KR로 되어 있으면 에러가 나는 경우가 있어서다.
+- 메뉴 등의 한글화를 위해서 _config.yml에서 안내하는데로 _data에 하위 locales폴더를 만들고, 한글언어 파일은 [박성진](https://github.com/denev6/denev6.github.io/tree/master/_data/locales)님의 저장소에서 ko-KR파일만 가져왔다. 그리고 _config.ylml에서 'lang:' 값을 en에서 ko로 변경했다. 복사해온 파일명도 ko-KR.yml인데 ko.yml로 변경했다. 이렇게 한 이유는 giscus라는 코멘트프로그램을 쓸때 ko가 아니라 ko-KR로 되어 있으면 에러가 나는 경우가 있어서다. 고치고 보니 로컬에서는 언어파일 설정을 바꾼후 새로고침을 해도 반영되지 않는다. Github에 올려보면 반영이 된다. 그래서 로컬서버를 종료하고 다시 시작하니 반영이 된다.
+
+![이미지](/assets/img/avatar.png)
