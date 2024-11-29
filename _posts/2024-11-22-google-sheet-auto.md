@@ -4,7 +4,7 @@ date: 2024-11-22 19:52:13 +0900
 categories: [Coding, Others]
 tags: [GoogleDocs, OA]
 media_subpath: /assets/posts/2024
-image: til.png
+image: blog.png
 ---
 
 이 글은 <span class="txt_bg">**코딩에 대한 지식이 없는 상태에서**</span> 업무자동화를 시도했었던 기록에 대해서 적고 있습니다. 특히, 로컬이 아닌 외부의 온라인 데이터를 불러오는 것이 주를 이룹니다. 다만, 구체적으로 어떻게 하면 만들수 있는지에 대해서 적지 않습니다. 대신 제가 참고하며 그대로 따라한 글을 맨아래에 모두 적어두니 참조 바랍니다.
