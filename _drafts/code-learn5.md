@@ -1,0 +1,102 @@
+---
+title: "코딩 배우기 #5 : Python"
+# date: 2024-11-28 22:42:36 +0900
+categories: [Note, TIL]
+tags: [Python, Learn]
+media_subpath: /assets/posts/2024
+image: til.png
+---
+
+- 머리를 쓰기 시작한다. 이전에는 단순하게 연산만 생각하면 되었지만, 여기서부터는 논리구조에 대해서 생각해야 한다. 산수가 아니라 수학을 해야한다.
+- 프로그램이 에러가 나는 이유는 100% 코더의 실수다.
+
+
+### 반복문 for
+```python
+for i in ['python', 'java', 'go']:
+	print(i) # 꼭 변수를 사용할 필요는 없다. ex) print('아무값') > 아무값이 3번 출력됨
+
+for i in range(3): # [0, 1, 2]
+	print(i)
+
+# 활용예시 : 1에서 10까지 더하기
+sum = 0
+for i in range(1,11):
+	sum = sum + i
+print(sum)
+```
+
+### 반복문 while
+```python
+# 내가 보기에 while은 for + if 효과
+i = 0
+while i <=3:
+	print(i)
+	i = i + 1
+	
+# 활용예시 : 이름을 입력받아 확인하기
+name = input('Who are you?')
+while name != 'smith':
+    print('Hi,', name, '. You are not smith.')
+    name = input('Who are you?')
+print('Yes, you are',name,'.')
+
+```
+
+### 반복문 오답노트 1
+```python
+# while을 사용하여 1에서 10까지 더하기
+# 오류 // i를 먼저 증가시키고 w_num에 더하고 있기 때문에 10이 아니라 11까지 더하게 됨
+i = 0
+num = 0
+while i <= 10:
+    i = i + 1
+    num = num + i
+print(num)
+
+# 정정
+# 순서만 조정하면 됨
+i = 0
+num = 0
+while i <= 10:
+    num = num + i
+    i = i + 1
+print(num)
+```
+
+### 반복문 오답노트2
+```python
+# while을 이용하여 비밀번호 확인하기
+# 오류 // 루프 종료 조건이 없어서 오류 발생
+psword = '1234'
+psdata = input('4자리 숫자')
+while psdata != psword:
+    print('비밀번호가 틀렸습니다.')
+print('비밀번호가 맞습니다.')
+
+## 정정
+psword = '1234'
+psdata = input('4자리 숫자')
+while psdata != psword:
+    print('비밀번호가 틀렸습니다.')
+    psdata = input('4자리 숫자')
+print('비밀번호가 맞습니다.')
+```
+
+### 반복문 오답노트3
+```python
+# 리스트를 역방향으로 정렬하여 한줄씩 출력하기
+# 오류 // 보통 다른 함수들은 원본은 변경하지 않아서 새로운 리스트로 만들어 줌
+# 하지만, reverse는 원본자체를 변경시킬뿐 다른 값을 반환하지 않아서 오류가 발생함
+data = [1, 2, 3, 4, 5]
+reverse_data = data.reverse()
+for i in reverse_data:
+    print(i)
+
+# 정정
+data = [1, 2, 3, 4, 5]
+data.reverse()
+for i in data:
+    print(i) 
+```
+
