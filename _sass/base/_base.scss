@@ -474,3 +474,37 @@ mjx-container {
     margin-top: 3rem;
   }
 }
+
+
+/* More/Less */
+/* 기본 화살표 숨기기 */
+summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none; /* 크롬, 사파리 */
+}
+
+summary::marker {
+  display: none; /* 파이어폭스, 최신 브라우저 */
+}
+
+/* 커스텀 아이콘 추가 */
+summary::before {
+  content: "🔻More: "; /* 원하는 기호로 변경 */
+  font-size: 16px;
+  font-weight: 600;
+  margin-right: 10px;
+  display: inline-block;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+/* 열렸을 때 아이콘 회전 */
+details[open] summary::before {
+  content: "🔺Less: "; /* 원하는 기호로 변경 */
+  font-weight: 600;
+/*  transform: rotate(90deg);  90도 회전(필요시 사용) */
+}
