@@ -7,7 +7,7 @@ media_subpath: /assets/posts/2024
 image: blog.png
 ---
 
-> 이 글은 `Chirpy v7.1.1 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
+> 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
 {: .prompt-info }
 
 Jekyll 블로그가 설치되는 Github Pages는 `githubID.github.io`{: .filepath}라는 주소를 기본 제공합니다. Github는 개발자들에게 필수적인 사이트라 주소에 github.io가 들어간다면 개발자로서의 정체성을 표시하는 수단이 될수도 있습니다. 다만, (1) 주소가 길어지고 (2) 아이디명으로 제한되며 (3) 사이트를 이전할 경우 동일한 주소를 유지할 수 없다는 단점이 있습니다.

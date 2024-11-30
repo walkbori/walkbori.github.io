@@ -7,7 +7,7 @@ media_subpath: /assets/posts/2024
 image: blog.png
 ---
 
-> 이 글은 `Chirpy v7.1.1 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
+> 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
 {: .prompt-info }
 
 
@@ -24,6 +24,16 @@ _완료되면 초록색 체크표시가 된다_
 
 5. `https://githubID.github.io`{: .filepath}로 접속했을 때 블로그가 보이면 성공
 
+※ 위와 같이 하였으나 여전히 블로그가 보이지 않는 경우 아래 작업이 필요합니다. 아래 작업후 `잠시 대기 후` 블로그가 뜨는지 확인바랍니다. 만약 새로고침 하여도 변경이 없는 경우는 완전새로고침(<kbd>Ctrl</kbd> + <kbd>F5</kbd>)로도 확인해 보시기 바랍니다.
+
+![alt text](/10/github11.png){:width="500px" height="auto"}
+_1. Github 상단 <kbd>Action</kbd>에서 <kbd>New workflow</kbd>버튼 클릭_
+
+![alt text](/10/github12.png){:width="500px" height="auto"}
+_2. Jekyll로 검색한후 `Jekyll`만 써 있는 것의 <kbd>Configure</kbd> 버튼 클릭_
+
+![alt text](/10/github13.png){:width="700px" height="auto"}
+_3. 넘어간 화면에서 <kbd>Commit changes</kbd> 버튼 클릭(다음에 뜨는 팝업도 동일)_
 
 > **Starer** vs. **일반**  
 Starter에서 출발하여 여러 기능을 추가하고 UI나 Style 등을 조정한 것이 일반버전입니다. 공식문서를 포함한 대부분의 설명은 일반버전 기준으로 작성되고 있습니다.

@@ -7,7 +7,7 @@ media_subpath: /assets/posts/2024
 image: blog.png
 ---
 
-> 이 글은 `Chirpy v7.1.1 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
+> 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
 {: .prompt-info }
 
 Jekyll은 변경사항이 있을 때마다 commit과 push를 하거나 직접 Github에서 수정해야 합니다. 문제는 (1) 불필요한 변경내역이 많아지고 (2) 변경결과를 확인하기까지 시간이 걸린다는 점입니다. 로컬서버를 만들어 미리 확인한다면 이러한 문제를 해결할 수 있습니다. 찾아본 방법은 Ruby를 이용한 방법과 Docker를 이용한 방법입니다.
@@ -81,7 +81,7 @@ _2번을 실행하면 wdm 관련 error가 발생한다._
 ![alt text](/11/cmd3.png){:width="700px" height="auto" }
 _Jeyll의 Gemfile을 수정(하단 안내)_
 
-> bundler 설치과정에서 `wdm`오류가 발생합니다. 이는 Jekyll폴더의 `Gemfile`에서 `gem "wdm", "~> 0.1.1"`을 `gem "wdm", "~> 0.1"`로 수정후 저장하고 다시 실행하면 해결됩니다.
+> ~~bundler 설치과정에서 `wdm`오류가 발생합니다. 이는 Jekyll폴더의 `Gemfile`에서 `gem "wdm", "~> 0.1.1"`을 `gem "wdm", "~> 0.1"`로 수정후 저장하고 다시 실행하면 해결됩니다.~~ `7.1.1`에서 발생하던 버그가 `7.2.0`부터는 발생하지 않게 개선되었습니다.
 {: .prompt-info }
 
 ![alt text](/11/cmd4.png){:width="500px" height="auto" }

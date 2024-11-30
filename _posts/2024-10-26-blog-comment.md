@@ -7,7 +7,7 @@ media_subpath: /assets/posts/2024
 image: blog.png
 ---
 
-> 이 글은 `Chirpy v7.1.1 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
+> 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
 {: .prompt-info }
 
 공식사이트에 따르면 Jekyll은 심플한, 블로그 지향적, 정적사이트 생성도구입니다. 여기서 정적사이트라는 것은 데이터베이스가 없다는 것이고 덕분에 댓글기능을 사용하기 위해서는 추가 작업이 필요합니다. Chirpy는 `_config.yml`에 Disqus, Utterances, Giscus 세가지 댓글 시스템을 제시합니다.
