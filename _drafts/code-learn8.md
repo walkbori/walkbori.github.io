@@ -7,7 +7,12 @@ media_subpath: /assets/posts/2024
 image: til.png
 ---
 
+- 데이터 구조는 크게 List, Tuple, Dictionary, Set 이렇게 4가지 정도인 것 같다.
+- 배우는 입장에서는 어떤 형태이든 명령어는 동일하면 좋겠는데, 데이터 구조에 따라 명령어가 미묘하게 다르다. 예를 들어 List는 추가할때, `list.append()`를 사용하지만 Set는 `set.add() 또는 set.update`를 사용한다. `del`은 List에서는 사용가능하지만 Set에서는 사용불가이다.
+- 이유가 있을 것이다.
+
 ### 데이터구조 : Dictionary
+
 ```python
 # 빈 데이터 만들기
 data_list = list() # []
@@ -74,4 +79,13 @@ data_list = ['apple', 'dell', 'samsung', 'lg', 'apple', 'dell', 'samsung', 'lg',
 data_list2 = set(data_list) # 중복 데이터가 정리되어 변환됨
 print(data_list2)
 print(list(data_list2))
+```
+
+```python
+# Set 관련
+set_data = {1, 2, 3}
+set_data.add(4) # 리스트와 달리 append가 아니다.
+set_data.update([5, 6]) # 여러 데이터 추가
+set_data.remove(2) # Set은 인덱스를 지원하지 않아 del은 사용불가
+print(set_data)
 ```
