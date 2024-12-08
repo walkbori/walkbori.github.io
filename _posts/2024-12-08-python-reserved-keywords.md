@@ -1,6 +1,6 @@
 ---
 title: "파이썬 예약어(Python Reserved Keywords)"
-# date: 2024-11-19 19:52:13 +0900
+date: 2024-12-08 11:12:23 +0900
 categories: [Note, ETC]
 tags: [Python, ReservedKeywords]
 media_subpath: /assets/posts/2024

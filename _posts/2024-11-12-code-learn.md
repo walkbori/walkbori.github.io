@@ -1,5 +1,5 @@
 ---
-title: "코딩 배우기 #1 : Python"
+title: "코딩 배우기 #1 : Python 변수"
 date: 2024-11-12 21:21:57 +0900
 categories: [Note, TIL]
 tags: [Python, Learn]
