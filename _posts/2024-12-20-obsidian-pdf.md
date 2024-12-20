@@ -1,5 +1,5 @@
 ---
-title: "Obsidian 내장 PDF Viewer에서 글자가 찌그러져 보이는 경우[미해결]"
+title: "[미해결]Obsidian PDF Viewer에서 글자가 찌그러져 보이는 경우"
 date: 2024-12-20 20:30:14 +0900
 categories: [Coding, Others]
 tags: [Obsidian, PDF]
