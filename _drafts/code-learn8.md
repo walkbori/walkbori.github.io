@@ -1,6 +1,6 @@
 ---
 title: "코딩 배우기 #8 : Python"
-# date: 2024-11-30 22:22:42 +0900
+date: 2024-12-20 22:22:42 +0900
 categories: [Note, TIL]
 tags: [Python, Learn]
 media_subpath: /assets/posts/2024
