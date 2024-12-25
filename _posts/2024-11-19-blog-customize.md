@@ -3,8 +3,7 @@ title: Jekyll 테마 Chirpy Starter (7) 기타설정
 date: 2024-11-19 18:51:46 +0900
 categories: [Blog, Chirpy]
 tags: [Blog, Customize]
-media_subpath: /assets/posts/2024
-image: blog.png
+image: /assets/posts/blog.png
 ---
 
 > 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.

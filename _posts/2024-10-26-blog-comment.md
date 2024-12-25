@@ -3,8 +3,7 @@ title: "Jekyll 테마 Chirpy Starter (2) 댓글기능 : Giscus 설치"
 date: 2024-10-26 17:25:24 +0900
 categories: [Blog, Chirpy]
 tags: [Blog, Coding, Github, Chirpy, Giscus]
-media_subpath: /assets/posts/2024
-image: blog.png
+image: /assets/posts/blog.png
 ---
 
 > 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
@@ -29,17 +28,17 @@ Giscus는 Disqus에 비해서 폐쇄적이나 DATA가 외부가 아닌 내부에
 #### 1. Github 저장소 생성
 
 1. 댓글 저장용 Repository 생성 : Repository name을 입력하고 `Public`선택후 <kbd>Create repository</kbd>버튼 클릭
-![alt text](/10/github1.png)
+![alt text](/assets/posts/2024/10/github1.png)
 
 2. 생성된 Repository의 <kbd>Setting > General > Features</kbd>탭에서 Discusssions 활성화(채크만) 
-![alt text](/10/github2.png)
+![alt text](/assets/posts/2024/10/github2.png)
 
 3. 댓글 저장용 Discussions 카테고리 생성  
-![alt text](/10/github3.png){:width="400px" height="auto"}
+![alt text](/assets/posts/2024/10/github3.png){:width="400px" height="auto"}
 _3.1 우측상단 <kbd>연필</kbd>버튼 클릭_
-![alt text](/10/github4.png)
+![alt text](/assets/posts/2024/10/github4.png)
 _3.2 우측상단 <kbd>New category</kbd>버튼 클릭_
-![alt text](/10/github5.png)
+![alt text](/assets/posts/2024/10/github5.png)
 _3.3 Discussion Format을 `Announcement`로 선택후 우측하단 <kbd>Create</kbd>버튼 클릭_
 
 > 새로운 카테고리가 필수는 아닙니다. `Announcements`카테고리를 활용할수 있지만, 가능하면 디폴트 항목은 그대로 남겨두기 위해 새롭게 만들었습니다. 만약, 이 과정을 생략한다면 후단의 Jekyll 설정시 `Announcements`를 선택하면 됩니다.
@@ -49,10 +48,10 @@ _3.3 Discussion Format을 `Announcement`로 선택후 우측하단 <kbd>Create</
 #### 2. Giscus App 설치
 
 4. [Giscuss Apps 페이지](https://github.com/apps/giscus){:target="_blank"}에서 <kbd>Install</kbd>버튼 클릭
-![alt text](/10/github6.png)
+![alt text](/assets/posts/2024/10/github6.png)
 
 5. 대상 Repository로 `Only select repository > 1번에서 생성한 Repository` 선택후 <kbd>Install</kbd>버튼 클릭
-![alt text](/10/github7.png){:width="500px" height="auto"}
+![alt text](/assets/posts/2024/10/github7.png){:width="500px" height="auto"}
 
 #### 3. Jekyll 설정 참조정보 생성
 
@@ -62,8 +61,8 @@ _3.3 Discussion Format을 `Announcement`로 선택후 우측하단 <kbd>Create</
 
 > 가이드 페이지는 상단에서 옵션을 선택하면 맨 하단에 코드를 자동생성해줄 뿐 그 자체로는 블로그에 영향을 미치지 않습니다. 이 코드를 복사하여 본인의 블로그에 넣거나, 필요한 설정 값만을 참조하여 반영해야 비로서 본인의 블로그에 적용이 됩니다. Chirpy는 설정값만 `_config.yml`에 반영하면 됩니다.
 {: .prompt-tip }
-![alt text](/10/github8.png)
-![alt text](/10/github9.png)
+![alt text](/assets/posts/2024/10/github8.png)
+![alt text](/assets/posts/2024/10/github9.png)
 
 #### 4. Jekyll 설정 반영
 

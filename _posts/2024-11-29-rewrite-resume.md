@@ -2,14 +2,13 @@
 title: "지금 시점에 다시 써보는 이력서"
 date: 2024-11-29 19:23:26 +0900
 categories: [Life, Essay]
-tags: [Resume]
-media_subpath: /assets/posts/2024
-image: essay.png
+tags: [Resume] 
+image: /assets/posts/essay.png
 ---
 
 어떤 바람이 불어서 이력서를 다시 써보는 것은 아닙니다. 그저 내가 어떤 일을 해왔는지 뒤돌아 보고 싶었습니다. 또한 앞으로 어떤게 나아갈지에 대한 이정표가 필요하기도 했구요.
 
-![Obsidian 대표이미지](/11/obsidian.png)
+![Obsidian 대표이미지](/assets/posts/2024/11/obsidian.png)
 _Obsidian 대표이미지_
 
 발단은 노트 프로그램을 [에버노트](https://evernote.com)에서 [옵시디언](https://obsidian.md/)으로 바꾸는 작업이었습니다.  필요한 것만 넘기자는 의미에서 하나씩 살펴보다가 예전 이력서가 눈에 띄였던 것입니다. 가만히 살펴보니 그 때는 있는 말, 없는 말 많이도 적었구나 싶습니다. 지금 봐서는 '아이고'라는 생각이 드는 건 어쩔수가 없습니다.

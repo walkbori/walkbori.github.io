@@ -3,8 +3,7 @@ title: "[미해결]Obsidian PDF Viewer에서 글자가 찌그러져 보이는 �
 date: 2024-12-20 20:30:14 +0900
 categories: [Coding, Others]
 tags: [Obsidian, PDF]
-media_subpath: /assets/posts/2024
-image: blog.png
+image: /assets/posts/blog.png
 ---
 
 Obsidian에서 PDF는 별도 프로그램 실행없이 내장뷰어를 통해서 볼수 있습니니다. 그러나, PPT 등에서 Export한 PDF의 경우 글자가 찌그러져 보이는 현상이 발생했습니니다. [Obsidian Forum](https://forum.obsidian.md/t/blurry-pdfs/66289)과 [Github](https://github.com/RyotaUshio/obsidian-pdf-plus/issues/97)에서 유사한 문제에 대한 논의를 살펴보니 자체 PDF Rendering 파일인 pdf.js를 수정하여 해결한 경우가 있었습니니다.

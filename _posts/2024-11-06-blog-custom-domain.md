@@ -2,9 +2,8 @@
 title: Jekyll 테마 Chirpy Starter (5) 커스텀 도메인
 date: 2024-11-06 19:56:57 +0900
 categories: [Blog, Chirpy]
-tags: [Blog, Domain]
-media_subpath: /assets/posts/2024
-image: blog.png
+tags: [Blog, Domain] 
+image: /assets/posts/blog.png
 ---
 
 > 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
@@ -30,7 +29,7 @@ Jekyll 블로그가 설치되는 Github Pages는 `githubID.github.io`{: .filepat
 
 Github의 <kbd>Setting > Pages > Custom domain</kbd>탭에서 도메인을 입력합니다. 도메인을 처음 입력하면 입력란 하단에 노란색으로 확인중이라는 메시지가 뜨다가 확인이 완료되면 성공메시지가 나옵니다. 이후에 맨 하단에 `Enforce HTTPS`를 채크해 보안을 강화합니다.
 
-![alt text](/11/github.png)
+![alt text](/assets/posts/2024/11/github.png)
 _이 페이지를 찾아올때마다 자동으로 DNS check를 다시 시작한다._
 
 이후 `_config.yml`에서 기존주소를 신규 도메인인으로 변경합니다. 기본주소 설정은 그 외에는 없을 거라고 생각되나 필요한 부분이 있다면 추가로 수정합니다.

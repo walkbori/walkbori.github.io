@@ -3,8 +3,7 @@ title: Jekyll Build Error
 date: 2024-12-22 13:22:42 +0900
 categories: [Coding, Others]
 tags: [Blog, Coding, Github, Build]
-media_subpath: /assets/posts/2024
-image: blog.png
+image: /assets/posts/blog.png
 ---
 
 갑자기 아래와 같은 Build 오류가 발생하였습니다.

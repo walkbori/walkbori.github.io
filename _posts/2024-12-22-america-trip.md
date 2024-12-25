@@ -3,8 +3,7 @@ title: 미국 후기
 date: 2024-12-22 13:00:47 +0900
 categories: [Life, Essay]
 tags: [출장, 문화]
-media_subpath: /assets/posts/2024
-image: essay.png
+image: /assets/posts/essay.png
 ---
 
 아주 짧게 미국을 다녀왔고, 느낌점을 적어 둡니다.

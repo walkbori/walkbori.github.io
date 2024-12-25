@@ -3,8 +3,7 @@ title: "코딩 배우기 #1 : Python 변수"
 date: 2024-11-12 21:21:57 +0900
 categories: [Note, TIL]
 tags: [Python, Learn]
-media_subpath: /assets/posts/2024
-image: til.png
+image: /assets/posts/til.png
 ---
 
 - 파이썬이 직관적이라는 말이 이해가 된다. 어떻게 보면 엑셀과도 비슷하다는 생각이 드는데, 특히 문자열은 꼭 " "로 감싸주어야 작동하는 것이 닮았다.

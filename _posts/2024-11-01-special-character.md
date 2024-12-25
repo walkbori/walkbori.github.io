@@ -3,8 +3,7 @@ title: 특수문자 명칭
 date: 2024-11-01 10:14:47 +0900
 categories: [Note, ETC]
 tags: [특수문자]
-media_subpath: /assets/posts/2024
-image: library.png
+image: /assets/posts/library.png
 ---
 
 강세표(`)를 뭐라고 부르는지 몰라서 한참을 '그거'라고 부르다가 정리한 글을 찾았습니다. "<span class="txt_bg">**달면 삼키고 써도 삼키는**</span>" 개발자 [Syntax Sugar님 블로그](https://syntaxsugar.tistory.com/entry/%ED%8A%B9%EC%88%98-%EA%B8%B0%ED%98%B8-%EB%AA%85%EC%B9%AD%EC%9D%B4%EB%A6%84){:target="_blank"}에서 가져왔습니다. 재미있는 표현이네요.

@@ -3,8 +3,7 @@ title: Jekyll 테마 Chirpy Starter (4) 로컬서버
 date: 2024-11-03 12:42:17 +0900
 categories: [Blog, Chirpy]
 tags: [Blog, Coding, Chirpy, Ruby, Server, CMD]
-media_subpath: /assets/posts/2024
-image: blog.png
+image: /assets/posts/blog.png
 ---
 
 > 이 글은 `Chirpy v7.2.0 Starter` 버전 기준으로 작성되었으며, Github 환경입니다.
@@ -26,33 +25,33 @@ Ruby를 설치하는 방법과 Docker를 이용하는 방법의 특징은 아래
 ### 1. Ruby설치
 
 1. 공식사이트에서 Ruby [다운로드](https://rubyinstaller.org/downloads/){:target="_blank"}  
-![alt text](/11/ruby.png){: width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby.png){: width="550px" height="auto" }
 _WITH DEVKIT 최신 버전을 받으면 된다_
 
 2. 설치 
  
-![alt text](/11/ruby2.png){: width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby2.png){: width="550px" height="auto" }
 _2.1 'I accept the License' 선택후 <kbd>Next</kbd>_
 
-![alt text](/11/ruby3.png){: width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby3.png){: width="550px" height="auto" }
 _2.2 모두 채크후 <kbd>Install</kbd>_
 
-![alt text](/11/ruby4.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby4.png){:width="550px" height="auto" }
 _2.3 모두 채크후 <kbd>Next</kbd>_
 
-![alt text](/11/ruby5.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby5.png){:width="550px" height="auto" }
 _2.4 설치진행 대기_
 
-![alt text](/11/ruby6.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby6.png){:width="550px" height="auto" }
 _2.5 채크후 <kbd>Finish</kbd>_
 
-![alt text](/11/ruby7.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby7.png){:width="550px" height="auto" }
 _2.6 아무것도 입력하지 말고 그냥 <kbd>엔터</kbd>_
 
-![alt text](/11/ruby8.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby8.png){:width="550px" height="auto" }
 _2.7 다음 질문에도 그냥 <kbd>엔터</kbd>(창이 닫힘)_
 
-![alt text](/11/ruby9.png){:width="550px" height="auto" }
+![alt text](/assets/posts/2024/11/ruby9.png){:width="550px" height="auto" }
 _2.8 명령프롬프트 실행후 `ruby -v` 입력하여 설치확인_
 
 ### 2. CMD에서 bundle 설치 및 서버 실행
@@ -72,25 +71,25 @@ bundle exec jekyll serve
 4. 실행확인(http://127.0.0.1:4000/로 접속)
 ※ CMD에서 서버를 실행하면 맨 하단 바로 위줄에 Server address:에 표시되는 주소
 ```
-![alt text](/11/cmd.png){:width="500px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd.png){:width="500px" height="auto" }
 _Jekyll 폴더로 이동후 1번 실행 후 2번 입력_
 
-![alt text](/11/cmd2.png){:width="500px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd2.png){:width="500px" height="auto" }
 _2번을 실행하면 wdm 관련 error가 발생한다._
 
-![alt text](/11/cmd3.png){:width="700px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd3.png){:width="700px" height="auto" }
 _Jeyll의 Gemfile을 수정(하단 안내)_
 
 > ~~bundler 설치과정에서 `wdm`오류가 발생합니다. 이는 Jekyll폴더의 `Gemfile`에서 `gem "wdm", "~> 0.1.1"`을 `gem "wdm", "~> 0.1"`로 수정후 저장하고 다시 실행하면 해결됩니다.~~ `7.1.1`에서 발생하던 버그가 `7.2.0`부터는 발생하지 않게 개선되었습니다.
 {: .prompt-info }
 
-![alt text](/11/cmd4.png){:width="500px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd4.png){:width="500px" height="auto" }
 _2번을 재실행하여 설치성공 후 3번 실행_
 
-![alt text](/11/cmd5.png){:width="500px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd5.png){:width="500px" height="auto" }
 _서버 실행에 성공한 모습_
 
-![alt text](/11/cmd6.png){:width="500px" height="auto" }
+![alt text](/assets/posts/2024/11/cmd6.png){:width="500px" height="auto" }
 _로컬서버에서 블로그에 접속 성공한 화면_
 
 
