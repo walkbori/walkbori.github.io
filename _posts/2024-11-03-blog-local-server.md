@@ -24,7 +24,7 @@ Ruby를 설치하는 방법과 Docker를 이용하는 방법의 특징은 아래
 
 ### 1. Ruby설치
 
-1. 공식사이트에서 Ruby [다운로드](https://rubyinstaller.org/downloads/){:target="_blank"}  
+1. 공식사이트에서 Ruby [다운로드](https://rubyinstaller.org/downloads/)  
 ![alt text](/assets/posts/2024/11/ruby.png){: width="550px" height="auto" }
 _WITH DEVKIT 최신 버전을 받으면 된다_
 

@@ -15,7 +15,7 @@ Jekyll 블로그가 설치되는 Github Pages는 `githubID.github.io`{: .filepat
 
 ### 도메인 DNS A레코드 추가  
 
-`A레코드` 추가하는 것은 도메인을 Github Pages의 IP 주소에 연결하는 것입니다. 아래는 현재 A레코드이나 추후 변경될수도 있으므로 사용시점에 [이페이지](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site){:target="blank"}에서 재확인 바랍니다. 참고로 도메인 구매업체에 따라서 A레코드 입력가능 개수가 달라 한두개만 입력가능한 경우도 있습니다.
+`A레코드` 추가하는 것은 도메인을 Github Pages의 IP 주소에 연결하는 것입니다. 아래는 현재 A레코드이나 추후 변경될수도 있으므로 사용시점에 [이페이지](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)에서 재확인 바랍니다. 참고로 도메인 구매업체에 따라서 A레코드 입력가능 개수가 달라 한두개만 입력가능한 경우도 있습니다.
 
 ```
 185.199.108.153

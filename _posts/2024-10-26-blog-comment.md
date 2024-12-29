@@ -47,7 +47,7 @@ _3.3 Discussion Format을 `Announcement`로 선택후 우측하단 <kbd>Create</
 
 #### 2. Giscus App 설치
 
-4. [Giscuss Apps 페이지](https://github.com/apps/giscus){:target="_blank"}에서 <kbd>Install</kbd>버튼 클릭
+4. [Giscuss Apps 페이지](https://github.com/apps/giscus)에서 <kbd>Install</kbd>버튼 클릭
 ![alt text](/assets/posts/2024/10/github6.png)
 
 5. 대상 Repository로 `Only select repository > 1번에서 생성한 Repository` 선택후 <kbd>Install</kbd>버튼 클릭
@@ -55,7 +55,7 @@ _3.3 Discussion Format을 `Announcement`로 선택후 우측하단 <kbd>Create</
 
 #### 3. Jekyll 설정 참조정보 생성
 
-1. [Giscus 설정 가이드 페이지](https://giscus.app/ko){:target="_blank"}로 이동
+1. [Giscus 설정 가이드 페이지](https://giscus.app/ko)로 이동
 
 2. 다른 부분은 그대로 두고 `저장소`는 githubID/giscous용으로 생성한 Repository, `Discusstions 카테고리`는 앞선 단계에서 만들었던 Giscus용 카테고리 선택(만들지 않은 경우 `Announcements`선택)
 

@@ -58,12 +58,12 @@ _구글독스에 작성한 자동 업데이트되는 보고서 발췌_
 
 아래는 자동화된 통합보고서를 만들기 위해 그대로 따라한 예제들입니다.
 
-1. 구글파이낸스 함수 : [구글 매뉴얼 및 구글 시트 템플릿](https://support.google.com/docs/answer/3093281?hl=ko){:target="_blank"} 참조
+1. 구글파이낸스 함수 : [구글 매뉴얼 및 구글 시트 템플릿](https://support.google.com/docs/answer/3093281?hl=ko) 참조
 2. 사이트크롤링 : importxml 함수  
-[스프레드 시트 크롤링, 매일 환율 데이터 자동 업데이트하기](https://ian4865.tistory.com/entry/Spreadsheet-%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C-%EC%8B%9C%ED%8A%B8-%ED%81%AC%EB%A1%A4%EB%A7%81-%EB%A7%A4%EC%9D%BC-%ED%99%98%EC%9C%A8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9E%90%EB%8F%99-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8){:target="_blank"}
+[스프레드 시트 크롤링, 매일 환율 데이터 자동 업데이트하기](https://ian4865.tistory.com/entry/Spreadsheet-%EC%8A%A4%ED%94%84%EB%A0%88%EB%93%9C-%EC%8B%9C%ED%8A%B8-%ED%81%AC%EB%A1%A4%EB%A7%81-%EB%A7%A4%EC%9D%BC-%ED%99%98%EC%9C%A8-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EC%9E%90%EB%8F%99-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8)
 3. 구글캘린터 데이터 추출 : Apps Script  
-[구글 캘린더를 구글 스프레드 시트로 옮기기](https://daily-life-of-bigone.tistory.com/m/46){:target="_blank"}
-[Apps Script로 Google Sheet의 정렬(sort) 적용하기](https://whiseung.tistory.com/entry/Apps-Script%EB%A1%9C-Google-Sheets%EC%9D%98-%EC%A0%95%EB%A0%ACsort-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0){:target="_blank"}  
+[구글 캘린더를 구글 스프레드 시트로 옮기기](https://daily-life-of-bigone.tistory.com/m/46)
+[Apps Script로 Google Sheet의 정렬(sort) 적용하기](https://whiseung.tistory.com/entry/Apps-Script%EB%A1%9C-Google-Sheets%EC%9D%98-%EC%A0%95%EB%A0%ACsort-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0) 
 ※ 구글 시트의 일정을 구글 캘린더로 대량 업로드 하는 것은 필요하지 않아 PASS함.
-4. 뉴스 경향 분석 : [Ghat GPT](https://wikidocs.net/218675){:target="_blank"}
+4. 뉴스 경향 분석 : [Ghat GPT](https://wikidocs.net/218675)
 
