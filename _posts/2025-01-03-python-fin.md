@@ -1,6 +1,6 @@
 ---
 title: "파이썬 기본강의 한바퀴"
-date: 2025-01-01 17:50:34 +0900
+date: 2025-01-03 19:00:22 +0900
 categories: [Life, Essay]
 tags: [Coding, 강의]
 image: /assets/posts/essay.png
