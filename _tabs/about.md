@@ -21,7 +21,7 @@ order: 4
 #### 📋 기본기 다지기
 
 - [x] [파이썬입문과 크롤링기초 부트캠프 [파이썬, 웹, 데이터 이해 기본까지]](https://www.inflearn.com/course/python-crawling-basic) <sup>Inflearn</sup> \| `2024.11.01 ~ 2025.01.02`
-- [ ] [처음하는 SQL과 데이터베이스(MySQL) 부트캠프 [입문부터 활용까지]](https://www.inflearn.com/course/sql-db-mysql-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)  <sup>Inflearn</sup> \| `2025.01.03 ~ 수강중`
+- [x] [처음하는 SQL과 데이터베이스(MySQL) 부트캠프 [입문부터 활용까지]](https://www.inflearn.com/course/sql-db-mysql-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EB%8D%B0%EC%9D%B4%ED%84%B0%EB%B6%84%EC%84%9D)  <sup>Inflearn</sup> \| `2025.01.03 ~ 2025.01.15`
 
 #### 🎡 간단한 프로젝트
 
